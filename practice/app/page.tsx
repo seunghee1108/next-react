@@ -1,6 +1,7 @@
 'use client';
 import styles from '/app/page.module.css'
 import { useState } from 'react';  // CSS 모듈(page.module.css)을 사용하여 컴포넌트에 스타일을 적용 
+import React, { useRef } from 'react';
 
 
 // 'Members'라는 인터페이스를 정의한다.
