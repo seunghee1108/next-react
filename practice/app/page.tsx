@@ -4,6 +4,7 @@ import styles from '/app/page.module.css'
 import { useState } from 'react';  // CSS 모듈(page.module.css)을 사용하여 컴포넌트에 스타일을 적용 
 import React, { useRef } from 'react'; // React 라이브러리에서 React 객체와 useRef 훅을 불러옴
 
+// * contentText, contentTextTwo 안 뜸 ?
 import { contentText, contentTextTwo, memberData } from './data/content';
 
 // 홈 컴포넌트를 정의함
